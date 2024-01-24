@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace FretAPI.Model;
+
+public partial class QbVendorMappingsTemp
+{
+    public int VendorMappingId { get; set; }
+
+    public string? Qbid { get; set; }
+
+    public int? FretrackId { get; set; }
+
+    public string? VendorFullName { get; set; }
+
+    public string? Qbname { get; set; }
+
+    public string? FretrackName { get; set; }
+
+    public string? GstregistrationType { get; set; }
+
+    public string? Gstin { get; set; }
+
+    public string? QbstreetAddress { get; set; }
+
+    public string? Qbcity { get; set; }
+
+    public string? Qbstate { get; set; }
+
+    public string? Qbcountry { get; set; }
+
+    public string? Qbpincode { get; set; }
+
+    public string? Email { get; set; }
+
+    public string? Currency { get; set; }
+
+    public string? Location { get; set; }
+
+    public int? CompId { get; set; }
+
+    public string? BillingAddressId { get; set; }
+
+    public string? BusinessNumber { get; set; }
+
+    public string? PrintOnCheckName { get; set; }
+
+    public string? PaymentTermId { get; set; }
+
+    public string? TaxIdentifier { get; set; }
+}
